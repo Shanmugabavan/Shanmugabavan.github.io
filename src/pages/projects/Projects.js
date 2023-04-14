@@ -12,7 +12,8 @@ import {
   publicationsHeader,
   publications,
 } from "../../portfolio.js";
-import ProjectsData from "../../shared/opensource/projects.json";
+// import ProjectsData from "../../shared/opensource/projects.json";
+import { projects } from "../../portfolio.js";
 import "./Projects.css";
 import ProjectsImg from "./ProjectsImg";
 
@@ -50,7 +51,7 @@ class Projects extends Component {
           </Fade>
         </div>
         <div className="repo-cards-div-main">
-          {ProjectsData.data.map((repo) => {
+          {projects.data.map((repo) => {
             return <GithubRepoCard repo={repo} theme={theme} />;
           })}
         </div>

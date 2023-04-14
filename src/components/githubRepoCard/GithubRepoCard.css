@@ -5,6 +5,14 @@
   cursor: pointer;
   flex: 1 1 25%;
 }
+
+.repo-card-div-1 {
+  color: rgb(88, 96, 105);
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 10px 30px -15px;
+  padding: 2rem;
+  cursor: pointer;
+  flex: 1 1 100%;
+}
 .repo-card-div:hover {
   box-shadow: rgba(0, 0, 0, 0.2) 0px 20px 30px -10px;
 }
@@ -68,7 +76,6 @@
 .repo-description {
   overflow: hidden;
   text-align: left;
-  display: -webkit-box;
   font-family: "Google Sans Regular";
   -webkit-line-clamp: 2;
   -webkit-box-orient: vertical;
@@ -118,5 +125,11 @@
 
   .repo-creation-date {
     font-size: 14px;
+  }
+
+  .content-list {
+    padding-left: 10px;
+    padding-right: 10px;
+    font-family: "Google Sans Regular";
   }
 }

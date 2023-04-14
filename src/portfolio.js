@@ -13,7 +13,7 @@ const seo = {
   og: {
     title: "Shanmugabavan's Portfolio",
     type: "website",
-    url: "http://ashutoshhathidara.com/",
+    url: "https://shanmugabavan.github.io/#/home",
   },
 };
 
@@ -26,7 +26,8 @@ const greeting = {
     "As a highly motivated and dedicated Computer Science engineering student, I have a deep understanding of the fundamentals of software construction and stay up to date with the latest technology stack and best practices. My experience working on multiple projects has honed my skills as a team player and communicator. I am now seeking a challenging position as a software engineer where I can contribute my skills and knowledge to developing cutting-edge software solutions in an enterprise application environment, and grow my career in the field.",
   resumeLink:
     "https://drive.google.com/file/d/1ZD7o5SXat_ZRDjOj9a0J9aW572jeIskL/view?usp=share_link",
-  portfolio_repository: "https://github.com/ashutosh1919/masterPortfolio",
+  portfolio_repository:
+    "https://github.com/Shanmugabavan/Shanmugabavan.github.io",
   githubProfile: "https://github.com/Shanmugabavan",
 };
 
@@ -331,7 +332,7 @@ const degrees = {
       title: "University of Moratuwa",
       subtitle: "Bachelor of Science in Computer Science and Engineering",
       logo_path: "University_of_Moratuwa_logo.png",
-      alt_name: "IIITDM Kurnool",
+      alt_name: "University of Moratuwa",
       duration: "2018 - 2023",
       descriptions: [
         "⚡ CGPA - 3.83/4.2",
@@ -482,7 +483,19 @@ const experience = {
   sections: [
     {
       title: "Work",
-      experiences: [],
+      experiences: [
+        {
+          title: "Teaching Assistant - Python Programming",
+          company: "University of Moratuwa",
+          company_url: "https://uom.lk/",
+          logo_path: "University_of_Moratuwa_logo.png",
+          duration: " Apr 2023 -  Current",
+          location: "Bandaranayake Mawatha, Moratuwa",
+          description:
+            "I guided and supported students in completing their lab assignments and tasks. My role involved providing assistance and answering questions related to Python programming concepts and helping students troubleshoot issues as they arose during the lab activities. I also worked collaboratively with the module instructor to ensure students had a positive and productive learning experience.",
+          color: "#000000",
+        },
+      ],
     },
     {
       title: "Internships",
@@ -510,9 +523,98 @@ const experience = {
 // Projects Page
 const projectsHeader = {
   title: "Projects",
-  description:
-    "My projects makes use of vast variety of latest technology tools. My best experience is to create Data Science projects and deploy them to web applications using cloud infrastructure.",
+  description: "",
   avatar_image_path: "projects_image.svg",
+};
+
+const projects = {
+  data: [
+    {
+      name:
+        "Inertial Navigation using Self supervised Learning (Currently working)",
+      url: "https://github.com/Navigat0rs/ronin-3",
+      description: [
+        "🔥 As part of this project, we proposed a self-supervised learning method for inertial navigation, which involves using data from IMU sensors to continuously calculate the position and orientation of a moving object. This approach offers a reliable and efficient solution for navigation, which can be used in a wide range of applications. ",
+        "🔥 I am playing a major role in architecture design and code development in PyTorch",
+      ],
+      languages: [
+        {
+          name: "PyTorch",
+          iconifyClass: "skill-icons:pytorch-light",
+        },
+        {
+          name: "Python",
+          iconifyClass: "vscode-icons:file-type-python",
+        },
+        {
+          name: "Scikit-learn",
+          iconifyClass: "simple-icons:scikitlearn",
+        },
+      ],
+    },
+
+    {
+      name: "Inventory Management System",
+      url: "https://github.com/UniLabsIMS",
+      description: [
+        "🔥 Semester 5 Software Engineering which reduce the paper works for the inventory management in the University laboratories",
+        "🔥 I played a key role in the development of this project by creating a RESTful API using Django that was integrated",
+      ],
+      languages: [
+        {
+          name: "Django",
+          iconifyClass: "logos:django-icon",
+        },
+        {
+          name: "React",
+          iconifyClass: "vscode-icons:file-type-reactjs",
+        },
+        {
+          name: "Redux",
+          iconifyClass: "tabler:brand-redux",
+        },
+        {
+          name: "PostgreSQL",
+          iconifyClass: "logos:postgresql",
+        },
+        {
+          name: "Junit",
+          iconifyClass: "simple-icons:junit5",
+        },
+      ],
+    },
+
+    {
+      name: "Core Banking System",
+      url: "https://github.com/Shanmugabavan/CoreBankingSystem",
+      description: [
+        "🔥 Semester 4 DBMS module group project which has basic functionalities of the Bank system",
+        "🔥 For this project, I was responsible for designing the ER diagram and developing the back-end. As part of this work, I focused on ensuring that the database was properly normalized, minimizing data redundancy, and implementing indexing for improved performance. Through this experience, I gained valuable skills in database design and optimization, which have since proven useful in my other software development projects.",
+      ],
+      languages: [
+        {
+          name: "HTML",
+          iconifyClass: "logos-html-5",
+        },
+        {
+          name: "CSS",
+          iconifyClass: "logos-css-3",
+        },
+        {
+          name: "JavaScript",
+          iconifyClass: "logos-javascript",
+        },
+        {
+          name: "PHP",
+          iconifyClass: "vscode-icons:file-type-php",
+        },
+        {
+          name: "MySQL",
+          iconifyClass: "logos:mysql",
+        },
+      ],
+    },
+  ],
 };
 
 const publicationsHeader = {
@@ -577,4 +679,5 @@ export {
   publicationsHeader,
   publications,
   contactPageData,
+  projects,
 };
