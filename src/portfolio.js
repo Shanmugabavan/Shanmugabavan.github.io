@@ -400,6 +400,15 @@ const certifications = {
       color_code: "#2A73CC",
     },
     {
+      title: "Neural Networks and Deep Learning",
+      subtitle: "- Coursera",
+      logo_path: "coursera_logo.png",
+      certificate_link:
+        "https://www.coursera.org/account/accomplishments/certificate/HJH362FWGVPN",
+      alt_name: "deeplearning.ai",
+      color_code: "#2A73CC",
+    },
+    {
       title: "AWS Essential Training for Developers",
       subtitle: "- LinkedIn",
       logo_path: "linkedIn.png",
@@ -485,7 +494,7 @@ const experience = {
       title: "Work",
       experiences: [
         {
-          title: "Teaching Assistant - Python Programming",
+          title: "Teaching Assistant - Programming Fundamentals",
           company: "University of Moratuwa",
           company_url: "https://uom.lk/",
           logo_path: "University_of_Moratuwa_logo.png",
