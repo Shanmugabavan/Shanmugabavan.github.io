@@ -494,14 +494,14 @@ const experience = {
       title: "Work",
       experiences: [
         {
-          title: "Teaching Assistant - Programming Fundamentals",
+          title: "Visiting Instructor - Programming Fundamentals",
           company: "University of Moratuwa",
           company_url: "https://uom.lk/",
           logo_path: "University_of_Moratuwa_logo.png",
           duration: " Apr 2023 -  Current",
           location: "Bandaranayake Mawatha, Moratuwa",
           description:
-            "I guided and supported students in completing their lab assignments and tasks. My role involved providing assistance and answering questions related to Python programming concepts and helping students troubleshoot issues as they arose during the lab activities. I also worked collaboratively with the module instructor to ensure students had a positive and productive learning experience.",
+            "I guide and support students in completing their lab assignments and tasks. My role involved providing assistance and answering questions related to programming fundamentals concepts.",
           color: "#000000",
         },
       ],
