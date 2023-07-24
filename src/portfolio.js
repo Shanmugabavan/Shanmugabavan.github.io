@@ -494,14 +494,25 @@ const experience = {
       title: "Work",
       experiences: [
         {
+          title: "Software Engineer",
+          company: "AzendTech",
+          company_url: "https://www.azendtech.com/",
+          logo_path: "azendtech_logo.jpg",
+          duration: " Jul 2023 -  Current",
+          // location: "Bandaranayake Mawatha, Moratuwa",
+          // description:
+          //   "I guided and supported students in completing their lab assignments and tasks. My role involved providing assistance and answering questions related to programming fundamentals concepts.",
+          color: "#000000",
+        },
+        {
           title: "Visiting Instructor - Programming Fundamentals",
           company: "University of Moratuwa",
           company_url: "https://uom.lk/",
           logo_path: "University_of_Moratuwa_logo.png",
-          duration: " Apr 2023 -  Current",
+          duration: " Apr 2023 -  Jul 2023",
           location: "Bandaranayake Mawatha, Moratuwa",
           description:
-            "I guide and support students in completing their lab assignments and tasks. My role involved providing assistance and answering questions related to programming fundamentals concepts.",
+            "I guided and supported students in completing their lab assignments and tasks. My role involved providing assistance and answering questions related to programming fundamentals concepts.",
           color: "#000000",
         },
       ],
