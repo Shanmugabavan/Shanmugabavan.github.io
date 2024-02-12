@@ -364,6 +364,24 @@ const schools = {
 const certifications = {
   certifications: [
     {
+      title: "Angular - The Complete Guide (2024 Edition)",
+      subtitle: "- Udemy",
+      logo_path: "Udemy_Logo.png",
+      certificate_link:
+        "https://www.udemy.com/certificate/UC-1d5b31a2-4dac-4ffa-881e-b021c2ddd9c4/",
+      alt_name: "",
+      // color_code: "#2A73CC",
+    },
+    {
+      title: "AZ-900: Microsoft Azure Fundamentals Exam Prep 2023",
+      subtitle: "- Udemy",
+      logo_path: "Udemy_Logo.png",
+      certificate_link:
+        "https://www.udemy.com/certificate/UC-f115d7f2-1d11-4195-85d8-c12795e79d86/",
+      alt_name: "",
+      // color_code: "#2A73CC",
+    },
+    {
       title: "Machine Learning Specialization",
       subtitle: "- Coursera",
       logo_path: "coursera_logo.png",
