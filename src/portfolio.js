@@ -335,8 +335,8 @@ const degrees = {
       alt_name: "University of Moratuwa",
       duration: "2018 - 2023",
       descriptions: [
-        "⚡ CGPA - 3.83/4.2",
-        "⚡ Dean's List - Semester-3 | Semester-4 | Semester-5 | Semester-6 | Semester-7",
+        "⚡ CGPA - 3.84/4.2",
+        "⚡ Dean's List - Semester-3 | Semester-4 | Semester-5 | Semester-6 | Semester-7 | Semester-8",
       ],
       website_link: "https://uom.lk/",
     },
@@ -363,6 +363,60 @@ const schools = {
 
 const certifications = {
   certifications: [
+    {
+      title: "Reactive Angular Course (with RxJs, Angular 18)",
+      subtitle: "- Udemy",
+      logo_path: "Udemy_Logo.png",
+      certificate_link:
+        "https://cloudsolutions.udemy.com/certificate/UC-a6b81d81-88fe-4f8a-b590-45379936b82b/",
+      alt_name: "",
+      // color_code: "#2A73CC",
+    },
+    {
+      title: "Learn Parallel Programming with C# and .NET",
+      subtitle: "- Udemy",
+      logo_path: "Udemy_Logo.png",
+      certificate_link:
+        "https://cloudsolutions.udemy.com/certificate/UC-c7547c6a-fec3-4521-82dd-e44f7ab7e3d3/",
+      alt_name: "",
+      // color_code: "#2A73CC",
+    },
+    {
+      title: "Kubernetes for the Absolute Beginners - Hands-on",
+      subtitle: "- Udemy",
+      logo_path: "Udemy_Logo.png",
+      certificate_link:
+        "https://cloudsolutions.udemy.com/certificate/UC-b2e69f63-9bc5-41ce-918f-0183a5adf7db/",
+      alt_name: "",
+      // color_code: "#2A73CC",
+    },
+    {
+      title: "ASP.Net Core Identity - Authentication & Authorization [MVC]",
+      subtitle: "- Udemy",
+      logo_path: "Udemy_Logo.png",
+      certificate_link:
+        "https://www.udemy.com/certificate/UC-b0c64717-4548-4f41-ad70-7ba00cee6ffb/",
+      alt_name: "",
+      // color_code: "#2A73CC",
+    },
+    {
+      title: "C# Developers: Learn the Art of Writing Clean Code",
+      subtitle: "- Udemy",
+      logo_path: "Udemy_Logo.png",
+      certificate_link:
+        "https://cloudsolutions.udemy.com/certificate/UC-373f661d-85fe-4b30-beb7-04e3ee51b52f/",
+      alt_name: "",
+      // color_code: "#2A73CC",
+    },
+    {
+      title: ".NET Microservices: CQRS & Event Sourcing with Kafka",
+      subtitle: "- Udemy",
+      logo_path: "Udemy_Logo.png",
+      certificate_link:
+        "https://www.udemy.com/certificate/UC-73dbca73-e98c-4a5d-b01a-e2867452d0bf/",
+      alt_name: "",
+      // color_code: "#2A73CC",
+    },
     {
       title: "Angular - The Complete Guide (2024 Edition)",
       subtitle: "- Udemy",
@@ -513,13 +567,23 @@ const experience = {
       experiences: [
         {
           title: "Software Engineer",
+          company: "Cloud Solutions International",
+          company_url: "https://cloudsolutions.lk/",
+          logo_path: "cloudsolutionlk_logo.jpeg",
+          duration: " Mar 2024 -  Current",
+          description:
+            "At Cloud Solutions International, a healthcare innovation firm, I am working on the Emergency Room (ER), Laboratory (LAB), and Blood Bank modules. My development work involves utilizing technologies such as .NET, Angular, Oracle, PostgreSQL, and Liquibase.",
+          color: "#000000",
+        },
+        {
+          title: "Software Engineer",
           company: "AzendTech",
           company_url: "https://www.azendtech.com/",
           logo_path: "azendtech_logo.jpg",
-          duration: " Jul 2023 -  Current",
+          duration: " Jul 2023 -  Feb 2024",
           // location: "Bandaranayake Mawatha, Moratuwa",
-          // description:
-          //   "I guided and supported students in completing their lab assignments and tasks. My role involved providing assistance and answering questions related to programming fundamentals concepts.",
+          description:
+            "I primarily worked on a Marketing Communication Program (MCP) for a US-based franchisee education client, where I contributed to both backend and frontend development. This involved using technologies such as .NET, Angular, SQL Server, PostgreSQL, and Azure DevOps. Through this project, I contributed to the full development lifecycle, from design to deployment.",
           color: "#000000",
         },
         {
@@ -679,7 +743,7 @@ const publications = {
 const contactPageData = {
   contactSection: {
     title: "Contact Me",
-    profile_image_path: "profile.jpg",
+    profile_image_path: "profile2.jpeg",
     description:
       "I am available on almost every social media. You can message me, I will reply within 24 hours.",
   },
