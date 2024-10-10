@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "./static/css/main.90944680.chunk.css",
-    "main.js": "./static/js/main.6bb27407.chunk.js",
-    "main.js.map": "./static/js/main.6bb27407.chunk.js.map",
+    "main.js": "./static/js/main.9f88a65d.chunk.js",
+    "main.js.map": "./static/js/main.9f88a65d.chunk.js.map",
     "runtime-main.js": "./static/js/runtime-main.fb7e7b0c.js",
     "runtime-main.js.map": "./static/js/runtime-main.fb7e7b0c.js.map",
-    "static/js/2.b0563af0.chunk.js": "./static/js/2.b0563af0.chunk.js",
-    "static/js/2.b0563af0.chunk.js.map": "./static/js/2.b0563af0.chunk.js.map",
+    "static/js/2.002efebe.chunk.js": "./static/js/2.002efebe.chunk.js",
+    "static/js/2.002efebe.chunk.js.map": "./static/js/2.002efebe.chunk.js.map",
     "index.html": "./index.html",
-    "precache-manifest.b010e77ad32fd768b168de0c8fe3900a.js": "./precache-manifest.b010e77ad32fd768b168de0c8fe3900a.js",
+    "precache-manifest.ff5568496d06c64eaef79bc2b23e1ada.js": "./precache-manifest.ff5568496d06c64eaef79bc2b23e1ada.js",
     "service-worker.js": "./service-worker.js",
     "static/css/main.90944680.chunk.css.map": "./static/css/main.90944680.chunk.css.map",
     "static/media/index.css": "./static/media/Montserrat-Regular.ee653992.ttf",
@@ -21,6 +21,7 @@
     "static/media/azendtech_logo.jpg": "./static/media/azendtech_logo.5a6a1234.jpg",
     "static/media/blogs_image.svg": "./static/media/blogs_image.058eca4c.svg",
     "static/media/cloud_infrastructure.svg": "./static/media/cloud_infrastructure.cacbc42b.svg",
+    "static/media/cloudsolutionlk_logo.jpeg": "./static/media/cloudsolutionlk_logo.e5db763c.jpeg",
     "static/media/codeInLogo.png": "./static/media/codeInLogo.fee92c18.png",
     "static/media/contactMail.png": "./static/media/contactMail.5f915405.png",
     "static/media/data_science.svg": "./static/media/data_science.ebf35d7f.svg",
@@ -49,6 +50,7 @@
     "static/media/nptel_logo.png": "./static/media/nptel_logo.95a12a2b.png",
     "static/media/portfolio.gif": "./static/media/portfolio.414dfbd9.gif",
     "static/media/profile.jpg": "./static/media/profile.28a2c545.jpg",
+    "static/media/profile2.jpeg": "./static/media/profile2.7de956c6.jpeg",
     "static/media/programmer.svg": "./static/media/programmer.5faf790b.svg",
     "static/media/projects_image.svg": "./static/media/projects_image.b8ba9487.svg",
     "static/media/pwa.png": "./static/media/pwa.71408db7.png",
@@ -60,8 +62,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.fb7e7b0c.js",
-    "static/js/2.b0563af0.chunk.js",
+    "static/js/2.002efebe.chunk.js",
     "static/css/main.90944680.chunk.css",
-    "static/js/main.6bb27407.chunk.js"
+    "static/js/main.9f88a65d.chunk.js"
   ]
 }
